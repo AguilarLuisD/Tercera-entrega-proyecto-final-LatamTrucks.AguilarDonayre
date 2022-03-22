@@ -1,0 +1,220 @@
+<!doctype html>
+<html lang="en">
+  <head>
+  
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Cotiza tu camion en LatamTrucks, detalles de gama y modelos de camiones UD, venta, contratos, servicos, cotiza tu camión">
+    <meta name="keywords" content="camiones, quester, croner, maquinaria, camión pesado, camión de obra, camión para negocio, transporte, trasporte de mercaderia">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/estilos.css">
+    <title>LATAMTRUCKS</title>
+  </head>
+  <body>
+
+  
+    <header>
+      <div class="container-fluid navbar navbar-light bg-light" >
+
+        <span class="navbar-brand mb-1 h1 "  >
+          <a href="../index.html" class="text-decoration-none text-dark " >LATAMTRUCKS</a> </span>
+      </div>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+          <!-- <a class="navbar-brand" href="#">LATAMTRUCKS</a> -->
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end " id="navbarNav">
+            <ul class="navbar-nav  ">
+              <li class="nav-item px-3" >
+                <div class="btn-group">
+                  <button type="button"   class="btn btn-danger dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                    Vehículos
+                  </button>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="quester.html">Quester</a></li>
+                    <li><a class="dropdown-item" href="croner.html">Croner</a></li>
+                    
+                  </ul>
+                </div>
+<!--                 <a class="nav-link " href="#">Vehículos</a>
+ -->          </li>
+              <li class="nav-item px-3">
+                <a class="nav-link " href="servicios.html">Servicios</a>
+              </li>
+              <li class="nav-item px-3">
+                <a class="nav-link" href="#">Cotizar</a>
+              </li>
+              <li class="nav-item px-3 ">
+                <a class="nav-link " href="ubicanos.html">Ubícanos</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <section>
+      <div class="mt-5">
+        <h1 class="text-center">COTIZAR</h1>
+      </div>
+      <div class="container">
+        <div class="row mt-5">
+          <div class="col-12">
+          <h2 class="p-4 letra bg-dark card">Cotiza tu camión</h2>
+          <span class="mb-3">Ingresa aquí tus datos y muy pronto nos pondremos en contacto.</span>
+          </div>
+
+          <div class="col-12 mt-5 mb-5">
+            <form class="row g-3 needs-validation" novalidate>
+              <div class="col-md-4 position-relative">
+                <label for="validationTooltip01" class="form-label">Nombre</label>
+                <input type="text" class="form-control" id="validationTooltip01" value="" required>
+                <div class="valid-tooltip">
+                  Looks good!
+                </div>
+              </div>
+              <div class="col-md-4 position-relative">
+                <label for="validationTooltip02" class="form-label">Apellido</label>
+                <input type="text" class="form-control" id="validationTooltip02" value="" required>
+                <div class="valid-tooltip">
+                  Looks good!
+                </div>
+              </div>
+              <div class="col-md-4 position-relative">
+                <label for="validationTooltipUsername" class="form-label">E-mail</label>
+                <div class="input-group has-validation">
+                  <span class="input-group-text" id="validationTooltipUsernamePrepend">@</span>
+                  <input type="text" class="form-control" id="validationTooltipUsername" aria-describedby="validationTooltipUsernamePrepend" required>
+                  <div class="invalid-tooltip">
+                    Please choose a unique and valid username.
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6 position-relative">
+                <label for="validationTooltip03" class="form-label">Pais</label>
+                <input type="text" class="form-control" id="validationTooltip03" required>
+                <div class="invalid-tooltip">
+                  Please provide a valid city.
+                </div>
+              </div>
+             
+              <div class="col-md-3 position-relative">
+                <label for="validationTooltip05" class="form-label">Ciudad</label>
+                <input type="text" class="form-control" id="validationTooltip05" required>
+                <div class="invalid-tooltip">
+                  Please provide a valid zip.
+                </div>
+              </div>
+              <div class="col-12">
+                <button class="btn btn-primary" type="submit">Enviar</button>
+              </div>
+            </form>
+
+
+
+
+
+
+          <!--   <form>
+              <label  for="fnombre">Nombre:</label>
+              <input class="cotizar__label" type="nombre" id="fnombre">
+              <br>
+              <label   for="fapellido">Apellido:</label>
+              <input class="cotizar__label" type="apellido" id="fapellido">
+              <br>
+              <label for="frazon">Razón Social:</label>
+              <input class="cotizar__label" type="text" id="frazon" required>
+              <br>
+              <label for="fruc">RUC:</label>
+              <input class="cotizar__label" type="ruc" id="fruc" required>
+              <br>
+              <label for="fcorreo">Correo:</label>
+              <input class="cotizar__label" type="email" id="fcorreo" required>
+              <br>
+              <label for="telefono">Telefono de contacto:</label>
+              <input class="cotizar__label" type="tel" id="telefono">
+              <br>
+              <label for="">Modelo:</label>
+              <select>
+                  <option>Quester</option>
+                  <option>Croner</option>
+              </select>
+              <br>
+              <input  type="submit">
+      
+            </form> -->
+          
+          </div>
+          <div class="col-12">
+            <img src="../images/cotizar1.jpg" class="img-fluid" alt="">
+          </div>
+          
+
+        </div>
+      </div>
+    </section>
+
+   
+
+  
+
+
+
+    <footer class="bg-footer">
+      <div class="container-fluid border-top border-2">
+        <div class="row">
+          <div class="col d-flex justify-content-between">
+            <span class="navbar-brand  h1 pt-2 d-flex align-items-center">
+              <a href="../index.html" class="text-decoration-none text-dark" >LATAMTRUCKS</a> 
+            </span>
+            <ul class="list-unstyled d-flex pt-2" >
+              <li ><a href="http://facebook.com/Latamtrucks"> <img width=30" height="40" src="https://oasisrose.garden/wp-content/uploads/2022/01/Oasis-try-15.svg" alt=""></a></li>
+              <li ><a href="http://twitter.com/Latamtrucks"> <img width="30" height="40" src="https://oasisrose.garden/wp-content/uploads/2022/01/Oasis-try-12.svg" alt=""></a></li>
+              <li><a href="http://instagram.com/latamtrucks"> <img width="30" height="40" src="https://oasisrose.garden/wp-content/uploads/2022/01/Oasis-try-17.svg" alt=""></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="contenedor-fluid">
+        <div class="row">
+          <div class="col-3 col-sm-none p-3 pt-0 ">
+            <h6 class="p-2 fw-bold">Camiones</h6>
+            <div class="row d-flex align-items-center">
+              <div class="col">
+                <img src="../images/Quester-121x58.png" class="img-fluid" alt="">
+                <p class="text-center">Quester</p>
+              </div>
+              <div class="col">
+                <img src="../images/Croner-121x58.png" class="img-fluid" alt="">
+                <p class="text-center">Croner</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-3">
+            <h6 class="fw-bold p-2">Servicios</h6>
+            <ul class="list-unstyled fw-light">
+              <li>Repuestos Genuinos</li>
+              <li>Servicios Genuinos</li>
+              <li>Soporte de Carretera</li>
+            </ul>
+          
+          </div>
+          <div class="col-3 p-2" >
+            <h6 class="fw-bold ">Cotizar</h6>
+            <h6 class="fw-bold ">Red de concecionarios</h6>
+          </div>
+        </div>
+      </div>
+    </footer>      
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+  </body>

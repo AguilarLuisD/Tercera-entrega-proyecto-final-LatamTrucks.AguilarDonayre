@@ -1,0 +1,22 @@
+.letra {
+  color: white; }
+
+.bg-footer {
+  background: #f0e7e7; }
+
+.animation {
+  animation-duration: 1s;
+  animation-name: slidein; }
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%; }
+  to {
+    margin-left: 0%;
+    width: 100%; } }
+
+.transformation:hover {
+  transform: scale(1.1);
+  background-color: #109b1c;
+  border-radius: 10px; }
